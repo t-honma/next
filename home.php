@@ -38,18 +38,11 @@
 	</section>
 
 	<div class="inner bnr">
-		<!-- <a href="<?php echo get_template_directory_uri(); ?>/img/top/2023_springcampaign.pdf" style="display:block; margin-bottom: 10px;" target="_blank">
+		<a href="<?php echo get_template_directory_uri(); ?>/img/top/pdf/202404_campaign.pdf" style="display:block; margin-bottom: 10px;" target="_blank">
 			<picture>
-				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_spring2023_sp.png 767w"/>
-				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_spring2023_pc.png 768w"/>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_spring2023_pc.png" alt="Spring Campaign - Admission fee and 1month mambership fee ¥0">
-			</picture>
-		</a> -->
-		<a href="<?php echo get_template_directory_uri(); ?>/img/top/pdf/202309_campaign.pdf" style="display:block; margin-bottom: 10px;" target="_blank">
-			<picture>
-				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202309_sp.png 767w"/>
-				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202309_pc.png 768w"/>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202309_pc.png" alt="1ヶ月分の会費が無料になる！家族/友達ご紹介キャンペーン開催中 - 再入会キャンペーンも同時開催中！">
+				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202404_sp.jpg 767w"/>
+				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202404_pc.jpg 768w"/>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202404_pc.jpg" alt="春の新規入会キャンペーン  入会金無料！さらに入会月・翌月の月会費が無料！！">
 			</picture>
 		</a>
 		<a href="https://next-akasaka.com/keirin/" style="display:block; margin-bottom: 10px;" target="_blank">

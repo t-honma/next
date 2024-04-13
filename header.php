@@ -8,7 +8,7 @@
 <!-- OGP -->
 <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo('name'); ?>">
 <meta property="og:description" content="ネクスト赤坂は、赤坂駅より徒歩2分のフィットネスジム（トレーニングジム・スポーツクラブ）です。仲間とともに、楽しみながら、強く、美しくなる新しいカタチのコミュニティ・ジムです。">
-<meta property="og:url" content="http://next-akasaka.com/">
+<meta property="og:url" content="https://next-akasaka.com/">
 <meta property="og:image" content="">
 <meta property="og:site_name" content="NEXT Akasaka-Base｜赤坂スポーツ フィットネスジム">
 

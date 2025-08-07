@@ -11,8 +11,7 @@ Template Name: 会員種別料金
         <ul>
             <li class="gold">
                 <h2 class="eng">GOLD<span class="jpn">ゴールド会員</span></h2>
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_27500.png" alt="27500円（月）" width="356" height="54" /></p>
-
+                <p class="price"><span class="yen">¥</span><span class="fee">27,500</span><span class="unit">/月（税込）</span></p>
                 <ul class="merit">
                     <li>営業時間内いつでも利用可能</li>
                     <li>すべてのプログラム受講可能</li>
@@ -22,7 +21,7 @@ Template Name: 会員種別料金
             </li>
             <li class="reguler">
                 <h2 class="eng">REGULAR<span class="jpn">レギュラー会員</span></h2>
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_19800.png" alt="19800円（月/税別）" width="348" height="54" /></p>
+                <p class="price"><span class="yen">¥</span><span class="fee">19,800</span><span class="unit">/月（税込）</span></p>
 
                 <ul class="merit">
                     <li>営業時間内いつでも利用可能</li>
@@ -33,10 +32,9 @@ Template Name: 会員種別料金
             </li>
             <li class="night">
                 <h2 class="eng">NIGHT<span class="jpn">ナイト会員</span></h2>
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_12100.png" alt="12100円（月/税別）" width="348" height="54" /></p>
-
+                <p class="price"><span class="yen">¥</span><span class="fee">12,100</span><span class="unit">/月（税込）</span></p>
                 <ul class="merit">
-                    <li>18:00〜CLOSEまで利用可能</li>
+                    <li>17:15〜CLOSEまでの利用可能</li>
                     <li>時間内のプログラム受講可能</li>
                     <li class="disp_pc">-</li>
                     <li class="disp_pc">-</li>
@@ -44,10 +42,10 @@ Template Name: 会員種別料金
             </li>
             <li class="day">
                 <h2 class="eng">DAY<span class="jpn">デイ会員</span></h2>
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_14300.png" alt="14300円（月/税別）" /></p>
+                <p class="price"><span class="yen">¥</span><span class="fee">14,300</span><span class="unit">/月（税込）</span></p>
 
                 <ul class="merit">
-                    <li>OPEN〜16:00まで利用可能</li>
+                    <li>OPEN〜17:15まで利用可能</li>
                     <li>時間内のプログラム受講可能</li>
                     <li class="disp_pc">-</li>
                     <li class="disp_pc">-</li>
@@ -65,23 +63,25 @@ Template Name: 会員種別料金
                 </tr>
                 <tr>
                     <td class="type">MARTIAL ARTS<span class="jpn">マーシャルアーツ会員</span></td>
-                    <td class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_16500_blk.png" height="35" /></td>
+                    <td class="price">
+                        <p class="price"><span class="yen">¥</span><span class="fee">16,500</span><span class="unit">/月（税込）</span></p>
+                    </td>
                     <td class="class">Kick Boxing, Karate, Kick Out</td>
                 </tr>
 
                 <tr>
-                    <td class="type">ZUMBA<span class="jpn">ズンバ会員</span></td>
-                    <td class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_16500_blk.png" height="35" /></td>
-                    <td>Zumba, Mixed Fit</td>
+                    <td class="type">UNDER29<span class="jpn">UNDER29会員</span></td>
+                    <td class="price">
+                        <p class="price"><span class="yen">¥</span><span class="fee">11,000</span><span class="unit">/月（税込）</span></p>
+                    </td>
+                    <td>すべてのプログラム受講可能</td>
                 </tr>
                 <tr>
                     <td class="type" rowspan="2">KEIRIN<span class="jpn">競輪予備校</span></td>
-                    <td class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_33000.png" height="35" /></td>
-                    <td class="class">パーソナルトレーニング</td>
-                </tr>
-                <tr>
-                    <td class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_11000_blk.png" height="35" /></td>
-                    <td class="class">自主トレーニング</td>
+                    <td class="price">
+                        <p class="price"><span class="yen">¥</span><span class="fee">33,000</span><span class="unit">/月（税込）</span></p>
+                    </td>
+                    <td class="class">パーソナルトレーニング、コンディショニング</td>
                 </tr>
             </tbody>
         </table>
@@ -89,21 +89,18 @@ Template Name: 会員種別料金
         <ul class="classlist disp_sp">
             <li>
                 <p class="type eng">MARTUAL ARTS<span class="jpn">マーシャルアーツ会員</span></p>
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_16500_blk.png" width="284" height="42" /></p>
+                <p class="price"><span class="yen">¥</span><span class="fee">16,500</span><span class="unit">/月（税込）</span></p>
                 <p class="class eng">Kick Boxing, Karate, Kick Out</p>
             </li>
             <li>
-                <p class="type eng">ZUMBA<span class="jpn">ズンバ会員</span></p>
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_16500_blk.png" width="284" height="42" /></p>
-                <p class="class eng">Zumba, Mixxed Fit</p>
+                <p class="type eng">UNDER29<span class="jpn">UNDER29会員</span></p>
+                <p class="price"><span class="yen">¥</span><span class="fee">11,000</span><span class="unit">/月（税込）</span></p>
+                <p class="class eng">すべてのプログラム受講可能</p>
             </li>
             <li>
                 <p class="type eng">KEIRIN<span class="jpn">競輪予備校</span></p>
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_33000.png" width="284" height="42" /></p>
-                <p class="class eng">パーソナルトレーニング</p>
-                &nbsp;
-                <p class="price"><img src="<?php echo get_template_directory_uri(); ?>/img/membership/price_11000_blk.png" width="284" height="42" /></p>
-                <p class="class eng">自主トレーニング</p>
+                <p class="price"><span class="yen">¥</span><span class="fee">33,000</span><span class="unit">/月（税込）</span></p>
+                <p class="class eng">パーソナルトレーニング、コンディショニング</p>
             </li>
         </ul>
 

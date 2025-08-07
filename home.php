@@ -38,11 +38,11 @@
 	</section>
 
 	<div class="inner bnr">
-		<a href="<?php echo get_template_directory_uri(); ?>/img/top/pdf/202404_campaign.pdf" style="display:block; margin-bottom: 10px;" target="_blank">
+		<a href="<?php echo get_template_directory_uri(); ?>/img/top/pdf/2025summer_campaign.pdf" style="display:block; margin-bottom: 10px;" target="_blank">
 			<picture>
-				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202404_sp.jpg 767w"/>
-				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202404_pc.jpg 768w"/>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_campaign202404_pc.jpg" alt="春の新規入会キャンペーン  入会金無料！さらに入会月・翌月の月会費が無料！！">
+				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_2025summer_sp.jpg 767w"/>
+				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_2025summer_pc.jpg 768w"/>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_2025summer_pc.jpg" alt="夏の入会キャンペーン - 入会金と会費1ヶ月分が無料">
 			</picture>
 		</a>
 		<a href="https://next-akasaka.com/keirin/" style="display:block; margin-bottom: 10px;" target="_blank">
@@ -53,7 +53,14 @@
 			</picture>
 		</a>
 		<a href="<?php the_permalink('3230'); ?>" style="display:block; margin-bottom: 10px;">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/bnr_cp_202003.jpg" width="950" height="150" alt="期間限定トライアル体験キャンペーン受付中 - 何度通っても1ヶ月10,000円！2020年5月9日まで">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/top/bnr_cp_202003.jpg" width="950" height="150" alt="期間限定トライアル体験キャンペーン受付中 - 何度通っても1ヶ月10,000円！">
+		</a>
+		<a href="<?php echo get_template_directory_uri(); ?>/img/top/pdf/2025recruit_kickinstructor.pdf" style="display:block; margin-bottom: 10px;" target="_blank">
+			<picture>
+				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_recruit_kick_sp.jpg 767w"/>
+				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_recruit_kick_pc.jpg 768w"/>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_recruit_kick_pc.jpg" alt="KICK BOXING インストラクター大募集中">
+			</picture>
 		</a>
 	</div>
 
@@ -152,7 +159,7 @@
 				<li class="clearfix">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/top/program_photo_thai-kick.jpg" width="340" height="340" alt="THAI KICK RHYTHM">
 					<div class="text">
-						<h3 class="eng">THAI KICK RHYTHM<span>タイキックリズム</span></h3>
+						<h3 class="eng">KICK OUT<span>キックアウト</span></h3>
 						<p>音楽に合わせてムエタイの動きをする、新しいエクササイズです。楽しくストレスを発散しながら脂肪を燃焼できます。</p>
 						<a href="#thai-kick" class="eng inline_box disp_sp">&gt;&nbsp;MORE INFO</a>
 						<a href="https://www.youtube.com/embed/tldDyq60fsg?autoplay=1" class="eng youtube_box disp_pc">MOVIE</a>

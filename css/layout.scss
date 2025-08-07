@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Menbere:wght@100..700&display=swap');
 /*==========
 top
 ==========*/
@@ -674,6 +674,7 @@ membership
 								}
 								p.price{
 									background-color: #333333;
+									color: #fff;
 									text-align: center;
 									img{
 										display: block;
@@ -681,6 +682,27 @@ membership
 										height: 35px;
 										margin: 0 auto;
 										padding: 20px 0 15px 0;
+									}
+									span{
+										&.yen{
+											font-family: "Menbere", sans-serif;
+											font-optical-sizing: auto;
+											font-weight: 600;
+											font-style: normal;
+											font-size: 24px;
+
+										}
+										&.fee{
+											font-family: "Menbere", sans-serif;
+											font-optical-sizing: auto;
+											font-weight: 600;
+											font-style: normal;
+											font-size: 40px;
+										}
+										&.unit{
+											font-size: 13px;
+											margin-left: 0.5em;
+										}
 									}
 								}
 								ul.merit{
@@ -753,6 +775,30 @@ membership
 								}
 								.price{
 									background-color: transparent;
+									color: #000;
+									line-height: 1;
+									margin: 1em 0;
+									span{
+										&.yen{
+											font-family: "Menbere", sans-serif;
+											font-optical-sizing: auto;
+											font-weight: 600;
+											font-style: normal;
+											font-size: 24px;
+
+										}
+										&.fee{
+											font-family: "Menbere", sans-serif;
+											font-optical-sizing: auto;
+											font-weight: 600;
+											font-style: normal;
+											font-size: 40px;
+										}
+										&.unit{
+											font-size: 13px;
+											margin-left: 0.5em;
+										}
+									}
 								}
 								.class{}
 							}
@@ -862,6 +908,7 @@ membership
 								}
 								p.price{
 									background-color: #333333;
+									color: #fff;
 									text-align: center;
 									img{
 										display: block;
@@ -869,6 +916,27 @@ membership
 										height: 35px;
 										margin: 0 auto;
 										padding: 20px 0 15px 0;
+									}
+									span{
+										&.yen{
+											font-family: "Menbere", sans-serif;
+											font-optical-sizing: auto;
+											font-weight: 600;
+											font-style: normal;
+											font-size: 24px;
+
+										}
+										&.fee{
+											font-family: "Menbere", sans-serif;
+											font-optical-sizing: auto;
+											font-weight: 600;
+											font-style: normal;
+											font-size: 40px;
+										}
+										&.unit{
+											font-size: 13px;
+											margin-left: 0.5em;
+										}
 									}
 								}
 								ul.merit{
@@ -945,6 +1013,30 @@ membership
 								&.price{
 									text-align: center;
 									width: 350px;
+									p{
+										line-height: 1;
+										span{
+											&.yen{
+												font-family: "Menbere", sans-serif;
+												font-optical-sizing: auto;
+												font-weight: 600;
+												font-style: normal;
+												font-size: 24px;
+
+											}
+											&.fee{
+												font-family: "Menbere", sans-serif;
+												font-optical-sizing: auto;
+												font-weight: 600;
+												font-style: normal;
+												font-size: 40px;
+											}
+											&.unit{
+												font-size: 13px;
+												margin-left: 0.5em;
+											}
+										}
+									}
 								}
 								&.class{
 									width: 40%;
@@ -1074,10 +1166,13 @@ instructors
 										color: #ae86c4;
 									}
 									&.orange{
-										color: #ff6600;
+										color: #ffaf5a;
 									}
 									&.blue{
 										color: #4267b2;
+									}
+									&.pink{
+										color: #f668e6;
 									}
 								}
 								.photo{
@@ -1132,6 +1227,9 @@ instructors
 					padding: 0 0 50px 0;
 					.inner{
 						ul{
+							display: flex;
+							flex-wrap: wrap;
+							justify-content: space-between;
 							li{
 								box-sizing: border-box;
 								box-shadow:3px 3px 0px 0px #ebebeb;
@@ -1139,12 +1237,13 @@ instructors
 								display: inline-block;
 								width: 350px;
 								text-align: center;
-								margin:0 11px 15px 0;
-								padding: 20px 15px;
+								margin:0 0 15px 0;
+								padding: 20px 15px 45px 15px;
 								vertical-align: top;
-								&:nth-child(3n){
+								position:relative;
+								/*&:nth-child(3n){
 									margin: 0 0 15px 0;
-								}
+								}*/
 								.tag{
 									font-size:1.8rem;
 									font-weight: 700;
@@ -1162,10 +1261,16 @@ instructors
 										color: #ae86c4;
 									}
 									&.orange{
-										color: #ff6600;
+										color: #ffaf5a;
 									}
 									&.blue{
 										color: #4267b2;
+									}
+									&.pink{
+										color: #f668e6;
+									}
+									&.orange{
+										color: #ff6600;
 									}
 								}
 								.photo{
@@ -1184,11 +1289,12 @@ instructors
 								.profile{
 									border-top: 1px solid #ccc;
 									text-align: left;
-									padding: 10px 0;
-									display: -webkit-box;
+									margin-top:10px;
+									padding: 10px 0 0 0;
+									/*display: -webkit-box;
 									  -webkit-box-orient: vertical;
 									  -webkit-line-clamp: 3;
-									  overflow: hidden;
+									  overflow: hidden;*/
 								}
 								a.eng{
 									color: #000;
@@ -1196,7 +1302,15 @@ instructors
 									font-size:1.4rem;
 									font-weight: 700;
 									text-align: right;
+									position: absolute;
+							        right: 25px;
+							        bottom: 20px;
 								}
+							}
+							&:after{
+								display: block;
+								content:"";
+								width: 350px;
 							}
 
 							&.detail{
@@ -1254,7 +1368,7 @@ instructors
 							color: #ae86c4;
 						}
 						&.orange{
-							color: #ff6600;
+							color: #ffa342;
 						}
 						&.blue{
 							color: #4267b2;

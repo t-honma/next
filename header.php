@@ -49,8 +49,7 @@ $(function() {
 	});
 });
 </script>
-
-<?php elseif ( is_page('2898') ) : ?>
+<?php elseif ( is_page( array( '2898', '4740' ) ) ) : ?>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/colorbox_instructors.css">
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.colorbox.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.matchHeight.js"></script>
@@ -83,7 +82,7 @@ $(function(){
 <body id="information" class="sub">
 <?php elseif( is_single() ) : ?>
 <body id="information" class="sub">
-<?php elseif( is_page('2898') ) : ?>
+<?php elseif ( is_page( array( '2898', '4740' ) ) ) : ?>
 <body id="instructors" class="sub">
 <?php elseif( is_page('2901') ) : ?>
 <body id="gallery" class="sub">
@@ -93,6 +92,9 @@ $(function(){
 <body id="schedule" class="sub">
 <?php elseif( is_page('588') ) : ?>
 <body id="kickboxing" class="sub">
+<!-- 削除する -->
+<?php elseif( is_page('4951') ) : ?>
+<body id="membership" class="sub">
 <?php else: ?>
 <body id="static" class="sub">
 <?php endif; ?>

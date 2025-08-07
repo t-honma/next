@@ -92,9 +92,6 @@ $(function(){
 <body id="schedule" class="sub">
 <?php elseif( is_page('588') ) : ?>
 <body id="kickboxing" class="sub">
-<!-- 削除する -->
-<?php elseif( is_page('4951') ) : ?>
-<body id="membership" class="sub">
 <?php else: ?>
 <body id="static" class="sub">
 <?php endif; ?>

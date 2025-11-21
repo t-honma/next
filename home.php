@@ -38,18 +38,11 @@
 	</section>
 
 	<div class="inner bnr">
-		<a href="<?php echo get_template_directory_uri(); ?>/img/top/pdf/2025summer_campaign.pdf" style="display:block; margin-bottom: 10px;" target="_blank">
-			<picture>
-				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_2025summer_sp.jpg 767w"/>
-				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_2025summer_pc.jpg 768w"/>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_2025summer_pc.jpg" alt="夏の入会キャンペーン - 入会金と会費1ヶ月分が無料">
-			</picture>
-		</a>
 		<a href="https://next-akasaka.com/keirin/" style="display:block; margin-bottom: 10px;" target="_blank">
 			<picture>
 				<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_keirin_sp.jpg 767w"/>
 				<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_keirin.jpg 768w"/>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_keirin.jpg" alt="2022年11月1日 競輪予備校開校！ 日本競輪選手養成所の入所試験合格を目指す生徒を募集します">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/top/banner/bnr_keirin.jpg" alt="競輪予備校生募集！ 日本競輪選手養成所の入所試験合格を目指す生徒を募集します">
 			</picture>
 		</a>
 		<a href="<?php the_permalink('3230'); ?>" style="display:block; margin-bottom: 10px;">

@@ -45,6 +45,15 @@ Template Name: Instractors
 					<a href="https://next-akasaka.com/wp-content/themes/NEXT2019/instructors/hannie.html" class="eng iframe_box">&gt;&nbsp;MORE INFO</a>
 				</li>
 
+				<li class="clearfix">
+					<p class="tag eng aqua">ZUMBA</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/instractors/photo_rumi.jpg" width="200" height="200" class="photo" alt="RUMI">
+					<p class="name eng">RUMI</p>
+					<p class="class eng">Zumba</p>
+					<p class="profile">Zumba® Fitness Instructor(zin). Basic1 & 2 Zumba® Kids pro skills.Former All in the Mix dancer.Current cRowN Divas dancer.</p>
+					<a href="https://next-akasaka.com/wp-content/themes/NEXT2019/instructors/rumi.html" class="eng iframe_box">&gt;&nbsp;MORE INFO</a>
+				</li>
+
 				<!-- MARTIAL ARTS -->
 				<li class="clearfix">
 					<p class="tag eng red">MARTIAL ARTS</p>
@@ -196,16 +205,6 @@ Template Name: Instractors
 					<p class="class eng">ジャイロキネシス</p>
 					<p class="profile">GYROTONIC®︎, GYROKINESIS®︎, GYROTONER®︎認定トレーナー, GYROTONIC®︎Applications of Scoliosis</p>
 					<a href="https://next-akasaka.com/wp-content/themes/NEXT2019/instructors/maki.html" class="eng iframe_box">&gt;&nbsp;MORE INFO</a>
-				</li>
-
-				<!-- KPOP -->
-				<li class="clearfix">
-					<p class="tag eng pink">K-POP COVER</p>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/instractors/photo_hiyu.jpg" width="200" height="200" class="photo" alt="Hiyu">
-					<p class="name eng">Hiyu</p>
-					<p class="class eng">K-POP COVER</p>
-					<p class="profile">Dream Ami / Mihimaru GT / Mizki / Ayane / バックダンサー、Hip-Hop USA R部門全国優勝、ダンスドリル選手権大会 Hip-Hop部門全国優勝</p>
-					<a href="https://next-akasaka.com/wp-content/themes/NEXT2019/instructors/hiyu.html" class="eng iframe_box">&gt;&nbsp;MORE INFO</a>
 				</li>
 
 				<!-- セルフ整体 -->
